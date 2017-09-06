@@ -1,0 +1,11 @@
+2017-09-05
+1  原来的代码每个模块都没有加# -*- coding:utf-8 -*-   在有中文处理的模块中增加该编码说明
+2  本机数据库没有settings下的数据库文件，创建数据库文件，注意创建的时候编码方式选用utf-8（使用navicat创建数据库）
+3  折腾了半天数据库的中文编码问题  因为数据库从C盘其它位置（python资料内）直接拷贝的免安装版本到C盘  数据数据库的配置文件路径在之前的路径 所以在之前的路径增加一个my.ini文件 修改配置  然后删除数据库 重新同步数据库模型  最终实现中文支持
+4  csrf禁止访问 增加 from django.views.decorators.csrf import csrf_exempt  以及在相关的view函数前面添加@csrf_exempt装饰器
+5  中文路径问题 原来的代码文件路径下有中文目录，导致找不到静态文件， 把代码放置到没有中文的目录下 
+6  模板文件中的css和js文件路径多写了一个static 去掉该static
+7  由于本机数据库没有密码（root用户），所以把settings下的密码写成空
+8  代码中__init__.py使用了pymysql库 需要安装该库
+9  本机django版本为1.10 不支持patterns的写法 urls.py修改成urlpatterns = [url(r'^admin/', admin.site.urls),]这样的形式
+10 本机django admin的密码和用户名忘记了的话，参考http://www.cnblogs.com/liyiran/p/4123637.html新建用户名和密码
