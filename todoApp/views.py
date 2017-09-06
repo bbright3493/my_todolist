@@ -13,6 +13,14 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.views.decorators.csrf import csrf_protect
 from django.views.decorators.csrf import csrf_exempt
 
+'''
+todolist view模块 主要处理以下页面：
+1 主页面 主页面显示当前代办事项 todolist
+2 完成页面 显示已经完成的事项 completed
+3 添加事项页面 addtodo
+'''
+
+
 # Create your views here.
 def todolist(request):
     todolist = Todo.objects.filter(flag=1)
