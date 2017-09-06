@@ -9,3 +9,6 @@
 8  代码中__init__.py使用了pymysql库 需要安装该库
 9  本机django版本为1.10 不支持patterns的写法 urls.py修改成urlpatterns = [url(r'^admin/', admin.site.urls),]这样的形式
 10 本机django admin的密码和用户名忘记了的话，参考http://www.cnblogs.com/liyiran/p/4123637.html新建用户名和密码
+
+2017-09-06
+1   代码上传到github
