@@ -7,13 +7,13 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TodoList/settings.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TodoList/urls.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TodoList/wsgi.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todoApp/views.py" afterPath="$PROJECT_DIR$/todoApp/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TodoList.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/a.dummy" changelist="ca5d5a66-b22a-474d-a246-8fb3f9995498" time="1504589542830" ignored="false" />
-    <file path="/Dummy.txt" changelist="ca5d5a66-b22a-474d-a246-8fb3f9995498" time="1504678632938" ignored="false" />
+    <file path="/Dummy.txt" changelist="ca5d5a66-b22a-474d-a246-8fb3f9995498" time="1504680228007" ignored="false" />
     <file path="/settings.py" changelist="ca5d5a66-b22a-474d-a246-8fb3f9995498" time="1504599114645" ignored="false" />
     <file path="/修改日志.txt" changelist="ca5d5a66-b22a-474d-a246-8fb3f9995498" time="1504678624180" ignored="false" />
     <file path="/views.py" changelist="ca5d5a66-b22a-474d-a246-8fb3f9995498" time="1504679913693" ignored="false" />
@@ -81,7 +81,7 @@
       <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/todoApp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="45" selection-start="968" selection-end="968" vertical-scroll-proportion="0.5682243">
+            <state line="24" column="22" selection-start="649" selection-end="649" vertical-scroll-proportion="0.49854228">
               <folding />
             </state>
           </provider>
@@ -284,7 +284,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/TodoList" />
     <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -470,12 +470,12 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32876712" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19242424" sideWeight="0.6712329" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19242424" sideWeight="0.6712329" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -669,7 +669,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/todoApp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="45" selection-start="968" selection-end="968" vertical-scroll-proportion="0.5682243">
+        <state line="24" column="22" selection-start="649" selection-end="649" vertical-scroll-proportion="0.49854228">
           <folding />
         </state>
       </provider>
