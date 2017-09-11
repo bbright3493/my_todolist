@@ -61,7 +61,7 @@ ROOT_URLCONF = 'TodoList.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates'],    #定义模板文件的保存位置
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],    #定义模板文件的保存位置
         'APP_DIRS': True,         #默认在 app 目录的 templates 下找 模板文件
         'OPTIONS': {
             'context_processors': [
