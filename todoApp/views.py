@@ -87,6 +87,12 @@ def addtodo(request):
     else:
         return render_to_response('addTodo.html', RequestContext(request))
 
+
+
+
+
+
+
 @csrf_exempt
 def updatetodo(request, id=''):
     if request.method == 'POST':
