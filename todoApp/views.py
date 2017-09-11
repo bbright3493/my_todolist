@@ -85,7 +85,7 @@ def addtodo(request):
         todo.save()
         return HttpResponseRedirect('/')
     else:
-        return render_to_response('addTodo.html', RequestContext(request))
+        return render_to_response('addtodo.html', RequestContext(request))
 
 
 
