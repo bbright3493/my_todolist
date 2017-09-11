@@ -28,7 +28,7 @@ SECRET_KEY = ')ehwj##f@1j(7)3v4xxtgp(+o+3hhm4m($_fqd_w4@wd)&-kni'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['www.itbeibei.com', '104.225.144.85', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['www.itbeibei.cn', '104.225.144.85', '127.0.0.1', 'localhost']
 
 
 # Application definition
