@@ -21,6 +21,12 @@ todolist view模块 主要处理以下页面：
 '''
 
 
+
+
+
+
+
+
 # Create your views here.
 def todolist(request):
     todolist = Todo.objects.filter(flag=1)
